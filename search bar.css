@@ -58,7 +58,7 @@ body {
 /* Définition des styles pour le bouton de réinitialisation */
 .src-box input[type=text]:focus + button[type=reset],
 .src-box input[type=text]:not(:placeholder-shown) + button[type=reset] {
-	transform: rotate(-45deg) translateY(0);
+	transform: rotate(90deg) translateY(0);
 	transition: transform 150ms ease-out 800ms;
 }
 
